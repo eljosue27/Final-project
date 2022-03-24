@@ -11,7 +11,7 @@ body {
   font-family: Hellix;
   background: linear-gradient(7.28deg, #eef5ff 0%, #ffffff 99.69%);
 }
-.center-text {
+/*.center-text {
   text-align: center;
 }
 .left-text {
@@ -175,7 +175,7 @@ a {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height, or 156% */
+
 
   font-feature-settings: "liga" off;
   margin-right: 40px;
@@ -225,4 +225,381 @@ input[type="text"] {
   line-height: 24px;
 
   font-feature-settings: "liga" off;
+}
+*/
+.main-container {
+  max-width: 500px;
+  margin: auto;
+}
+.center-text {
+  text-align: center;
+}
+.left-text {
+  text-align: left;
+}
+p {
+  font-size: 14.5px;
+  color: #111235;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 36px;
+  line-height: 43px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 43px;
+}
+h6 {
+  font-size: 24px;
+  line-height: 29px;
+}
+.textBold {
+  font-weight: 700;
+}
+.bar {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.bottom-bar {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+}
+
+.section-content-container {
+  margin: 40px 15px;
+}
+
+.section-content-container img {
+  width: 100%;
+}
+
+.section-content-container h1 {
+  font-size: 64px;
+  line-height: 75px;
+}
+.section-content-container p {
+  margin: 15px 0;
+}
+.button {
+  text-decoration: none;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  border-radius: 35px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.btn-main {
+  background: #4b5092;
+
+  color: #ffffff;
+}
+.btn-white {
+  background: #ffffff;
+  color: #436baa;
+}
+.section-2 {
+  margin-top: 100px;
+}
+.sections-234-Header2 {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 15px;
+}
+.text-container {
+  background: #f2f8ff;
+  padding: 30px 20px 50px;
+}
+
+.section-3 {
+  background: linear-gradient(99.85deg, #bad5ff 0%, #6487bf 100%);
+  padding-top: 30px;
+  margin-top: 90px;
+}
+.section-3 h2 {
+  font-size: 43.5px;
+  line-height: 58px;
+}
+.section-3 p:nth-child(2) {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.section-3 p:nth-child(3) {
+  margin-bottom: -17px;
+}
+.section-4 {
+  margin-top: 60px;
+}
+.fitness-guy img {
+  margin-bottom: -3px;
+}
+
+.txt-container {
+  background: #e4f0ff;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 50px 54px 50px 42px;
+  margin-bottom: 20px;
+}
+.different-color {
+  background: rgba(114, 122, 239, 0.1);
+}
+
+.pd-40 {
+  margin-top: 40px;
+}
+.pd-50 {
+  margin-top: 50px;
+}
+.mr-157 {
+  margin-right: 110px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #111235;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.section-5 {
+  margin-top: 43px;
+}
+.stay-up-to-date p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+input[type="text"] {
+  width: 220px;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  color: #111235;
+  background: url("https://assets.codepen.io/6060109/icon-send.png") no-repeat
+    scroll #ffffff 215px 12px;
+  padding-left: 10px;
+}
+.social-media-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+
+  margin: 30px auto;
+}
+.icon {
+  background-color: rgba(128, 173, 245, 0.2);
+
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon img {
+  width: 55%;
+}
+.text-copyright {
+  margin: 60px 0;
+  text-align: center;
+}
+.top-menu {
+  display: none;
+}
+
+.desktop-only {
+  display: none;
+}
+hr {
+  display: none;
+}
+@media only screen and (min-width: 992px) {
+  .main-container {
+    max-width: 1500px;
+  }
+  .outer-container {
+    margin: 0 10%;
+  }
+
+  .bar {
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-menu {
+    display: flex;
+    width: 30%;
+
+    align-items: center;
+  }
+  .top-menu li {
+    margin: 10px;
+  }
+  .top-menu li:nth-child(2) {
+    margin: 0 10px;
+
+    display: inline;
+  }
+  .top-menu li:nth-child(1) {
+    margin: 0 10px;
+  }
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .hero-section img {
+    width: 45%;
+  }
+  .hero-text {
+    width: 50%;
+    text-align: left;
+  }
+  .hero-text .button {
+    margin: 35px 0;
+  }
+  .section-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-section-2 img {
+    width: 85%;
+  }
+  .hero-text-2 {
+    width: 45%;
+
+    border-radius: 50px;
+  }
+  .section-3 .section-content-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 15px;
+  }
+  .trainer-text {
+    width: 32%;
+    text-align: left;
+    margin-left: 80px;
+  }
+
+  .btn-white {
+    margin: 30px 0;
+  }
+  .simple-flex {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .simple-flex > * {
+    margin: 0;
+  }
+  .panels-img-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+  }
+
+  .panels-img-container img {
+    width: 30%;
+  }
+
+  .panels {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .panel {
+    width: 49%;
+    box-sizing: border-box;
+  }
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
+
+  .flex-footer {
+    display: flex;
+  }
+  .flex-footer h2 {
+    width: 40%;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .links-bottom {
+    width: 45%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 180px;
+    padding: 0;
+    padding-right: 10%;
+    box-sizing: border-box;
+  }
+  .links-bottom li {
+    margin-bottom: 0;
+    padding-top: -0px;
+    align-self: flex-start;
+  }
+
+  .stay-up-to-date {
+    padding-top: 10px;
+    width: 23%;
+    text-align: left;
+  }
+  footer .stay-up-to-date input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .text-copyright {
+    text-align: left;
+    margin: -30px 0 40px;
+  }
+
+  .social-media-logo {
+    display: none;
+  }
+  hr {
+    display: block;
+  }
 }
