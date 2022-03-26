@@ -134,7 +134,7 @@ body {
   min-height: 100vh;
 }
 .main-container {
-  max-width: 414px;
+  min-width: 414px;
   margin: auto;
 }
 h1,
