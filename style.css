@@ -132,9 +132,10 @@
 body {
   min-width: 100%;
   min-height: 100vh;
+  margin: 0;
 }
 .main-container {
-  min-width: 414px;
+  max-width: 425px;
   margin: auto;
 }
 h1,
@@ -227,6 +228,7 @@ h5 {
 
 .section-2 .text-container {
   padding: 40px 20px;
+  box-sizing: border-box;
 }
 .section-3 {
   background: linear-gradient(99.85deg, #bad5ff 0%, #6487bf 100%);
