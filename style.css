@@ -225,7 +225,7 @@ h5 {
   line-height: 22px;
   color: #ffffff;
   padding: 15px 0;
-  width: 60%;
+  width: 252px;
   margin: 30px auto;
   text-align: center;
 }
@@ -346,6 +346,12 @@ input {
   height: 12.27px;
   width: 17.07px;
 }
+.h2-desktop {
+  display: none;
+}
+.btn-desktop {
+  display: none;
+}
 
 @media only screen and (min-width: 992px) {
   .main-container {
@@ -359,6 +365,10 @@ input {
     align-content: center;
     width: 85%;
     margin-left: 80px;
+  }
+  .button {
+    width: 252px;
+    padding: 20px 20px;
   }
 
   .top-bar li {
@@ -401,5 +411,64 @@ input {
     width: 35%;
     height: 363px;
     border-radius: 50px;
+  }
+
+  .section-3 .content-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  .section-3 .content-container img {
+    width: 35%;
+    margin-bottom: -40px;
+    margin-right: 35px;
+  }
+  .section-3 .text-container {
+    width: 30%;
+  }
+  .section-3 .button {
+    margin: 40px 0 0;
+  }
+  .panels-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .panels-img-container img {
+    width: 40%;
+  }
+  .panels-img-container .panels {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+
+  .h2-mobile {
+    display: none;
+  }
+  .btn-mobile {
+    display: none;
+  }
+
+  .h2-desktop {
+    display: block;
+  }
+  .btn-desktop {
+    display: block;
+  }
+
+  .btn-h2-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .btn-h2-desktop > * {
+    margin: 0 0 0 0;
+  }
+  .btn-h2-desktop h2 {
+    margin: 0;
   }
 }
