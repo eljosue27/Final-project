@@ -383,7 +383,7 @@ input {
     margin: 0 20px;
   }
   .outer-container {
-    margin: 0 135px 0 64px;
+    margin: 0 10%;
   }
   .section-1 .content-container {
     display: flex;
@@ -442,14 +442,20 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 30px;
   }
   .panels-img-container img {
-    width: 40%;
+    width: 20%;
   }
   .panels-img-container .panels {
     display: flex;
+
     flex-wrap: wrap;
-    width: 60%;
+  }
+  .panel {
+    width: 30%;
+    margin-left: 20px;
   }
 
   .h2-mobile {
@@ -468,14 +474,43 @@ input {
 
   .btn-h2-desktop {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
   .btn-h2-desktop > * {
     margin: 0 0 0 0;
   }
-  .btn-h2-desktop h2 {
-    margin: 0;
+  .icons {
+    display: none;
+  }
+  .section-5 .content-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .section-5 .content-container h3 {
+    margin-right: 70px;
+  }
+
+  .stay-up-date {
+    width: 30%;
+    padding: 0;
+    display: block;
+  }
+  .bottom-bar {
+    width: 30%;
+  }
+  .bottom-links {
+    width: 30%;
+    height: 196px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .bottom-links li {
+    align-self: flex-start;
   }
 }
