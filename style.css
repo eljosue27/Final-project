@@ -352,11 +352,15 @@ input {
 .btn-desktop {
   display: none;
 }
+.nav-bar {
+  display: none;
+}
 
 @media only screen and (min-width: 992px) {
   .main-container {
     max-width: 1500px;
   }
+
   .top-bar {
     box-shadow: none;
     display: flex;
@@ -365,6 +369,9 @@ input {
     align-content: center;
     width: 85%;
     margin-left: 80px;
+  }
+  .nav-bar {
+    display: block;
   }
   .button {
     width: 252px;
