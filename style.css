@@ -449,11 +449,11 @@ input {
     margin-top: 30px;
   }
   .panels-img-container img {
-    width: 20%;
+    width: 30%;
   }
   .panels-img-container .panels {
     display: flex;
-
+    width: 90%;
     flex-wrap: wrap;
   }
   .panel {
