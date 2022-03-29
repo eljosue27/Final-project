@@ -460,7 +460,9 @@ input {
     width: 30%;
     margin-left: 20px;
   }
-
+  .mr-90 {
+    margin-right: 99px;
+  }
   .h2-mobile {
     display: none;
   }
